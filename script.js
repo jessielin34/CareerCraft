@@ -3,9 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutButton = document.getElementById('about-button');
     const startButton = document.getElementById('start-button');
     const questButton = document.getElementById('start-quest');
+    const mentorButton = document.getElementById('mentor');
 
     questButton.addEventListener('click', () => {
         window.location.href = 'map.html';
+    })
+
+    mentorButton.addEventListener('click', () => {
+        window.location.href = 'mentor.html';
     })
     
     // Add a click event listener to the "About Us" button

@@ -18,9 +18,10 @@ body {
 }
 
 .logo img {
-    width: 100px;
+    width: 300px;
     height: auto;
     display: inline-block;
+    padding: 5px;
 }
 
 .username-icon {
