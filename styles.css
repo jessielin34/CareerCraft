@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 .about-page, .about-page html, .about-page body,
 .home-page, .home-page html, .home-page body {
@@ -31,6 +32,10 @@
   font-optical-sizing: auto;
   font-weight: 20;
   font-style: normal;
+}
+
+body {
+    font-family: "Urbanist", sans-serif; /* Apply the font to the entire page */
 }
 
 /* Styling for the "Go Back" icon */
@@ -121,7 +126,7 @@
 
 /* Button hover effect */
 .btn:hover {
-    background-color: #0056b3; 
+    background-color: #783283; 
     color: black;
 }
 
