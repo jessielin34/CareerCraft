@@ -5,24 +5,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const questButton = document.getElementById('start-quest');
     const mentorButton = document.getElementById('mentor');
 
-    questButton.addEventListener('click', () => {
-        window.location.href = 'map.html';
-    })
+    // Add event listener for questButton if it exists
+    if (questButton) {
+        questButton.addEventListener('click', () => {
+            window.location.href = 'map.html';
+        });
+    }
 
-    mentorButton.addEventListener('click', () => {
-        window.location.href = 'mentor.html';
-    })
+    // Add event listener for mentorButton if it exists
+    if (mentorButton) {
+        mentorButton.addEventListener('click', () => {
+            window.location.href = 'mentor.html';
+        });
+    }
+
+    // Add event listener for aboutButton if it exists
+    if (aboutButton) {
+        aboutButton.addEventListener('click', () => {
+            window.location.href = 'about.html';
+        });
+    }
+
+    // Add event listener for startButton if it exists
+    if (startButton) {
+        startButton.addEventListener('click', () => {
+            window.location.href = 'home.html';
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const goBackButton = document.getElementById('go-back-button');
     
-    // Add a click event listener to the "About Us" button
-    aboutButton.addEventListener('click', () => {
-        // Redirect to the "about.html" page
-        window.location.href = 'about.html';
-    });
-
-    // Add a click event listener to the "Click Here To Start!" button
-    startButton.addEventListener('click', () => {
-        // Redirect to the "start.html" page or another relevant page
-        window.location.href = 'home.html'
+    goBackButton.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent the default link behavior
+        window.location.href = 'index.html'; // Redirect to the home page
     });
 });
 
@@ -45,4 +62,15 @@ document.addEventListener('DOMContentLoaded', function() {
         // Navigate back to the previous page
         window.history.back();
     });
+});
+
+document.getElementById('uploadBtn').addEventListener('click', function() {
+    document.getElementById('fileInput').click();
+});
+
+document.getElementById('fileInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+        console.log('File selected:', file.name);
+    }
 });
