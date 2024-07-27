@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    background: url(images/sky.jpeg) no-repeat center center fixed;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+.username-icon {
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 5%;
+}
+
+.start-quest {
+    padding: 2% 4%;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-quest:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.hover-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hover-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1%;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%; 
+    left: 50%;
+    margin-left: -60px; 
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hover-icon:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.achievements, .mentorship {
+    margin: 0 10px;
+}
