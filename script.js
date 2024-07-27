@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add a click event listener to the "Click Here To Start!" button
     startButton.addEventListener('click', () => {
         // Redirect to the "start.html" page or another relevant page
-        
+        window.location.href = 'home.html'
     });
 });
 
