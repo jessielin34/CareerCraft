@@ -1,0 +1,18 @@
+/* Style for the container to center its content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Style for the about section */
+.about-section {
+    border: 3px solid #000; /* Black border with 3px thickness */
+    padding: 20px;          /* Adds space inside the border */
+    border-radius: 10px;    /* Optional: Adds rounded corners */
+    background-color: #f9f9f9; /* Optional: Light background color */
+    max-width: 600px;       /* Optional: Maximum width of the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a 3D effect */
+}
