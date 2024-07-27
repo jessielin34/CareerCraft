@@ -1,3 +1,4 @@
+
 /* Style for the container to center its content */
 .container {
     display: flex;
@@ -15,4 +16,11 @@
     background-color: #f9f9f9; /* Optional: Light background color */
     max-width: 600px;       /* Optional: Maximum width of the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a 3D effect */
+}
+
+:root {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
 }
