@@ -38,7 +38,7 @@ body {
     padding: 5%;
 }
 
-.start-quest {
+#start-quest {
     padding: 2% 4%;
     background-color: #007BFF;
     border: none;

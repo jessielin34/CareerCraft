@@ -2,6 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Get the buttons by their IDs
     const aboutButton = document.getElementById('about-button');
     const startButton = document.getElementById('start-button');
+    const questButton = document.getElementById('start-quest');
+
+    questButton.addEventListener('click', () => {
+        window.location.href = 'map.html';
+    })
     
     // Add a click event listener to the "About Us" button
     aboutButton.addEventListener('click', () => {
