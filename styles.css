@@ -17,9 +17,9 @@
 
 /* Style for the about section */
 .about-section {
-    border: 3px solid #000; /* Black border with 3px thickness */
+    border: 3px solid #000; 
     padding: 20px;          /* This adds space inside the border */
-    border-radius: 30px;    /* Adds rounded corners */
+    border-radius: 30px;    
     background-color: #f9f9f9; 
     max-width: 600px;       
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -33,13 +33,13 @@
 }
 
 body {
-    font-family: "Urbanist", sans-serif; /* Apply the font to the entire page */
+    font-family: "Urbanist", sans-serif; 
 }
 
 /* Styling for the "Go Back" icon */
 .go-back-icon {
     width: 40px; 
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     cursor: pointer; 
     margin: 20px;
 }
@@ -58,7 +58,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: black; 
-    overflow: hidden; /* Ensure no scrollbars appear */
+    overflow: hidden; 
     display: flex; /* Use Flexbox for alignment */
     flex-direction: column; 
     justify-content: center; 
@@ -95,21 +95,22 @@ body {
 /* Container for text */
 .text-container {
     position: absolute;
-    top: 50%; /* Adjust this to position text vertically */
+    top: 50%; 
     transform: translateY(-50%); /* Center vertically */
-    z-index: 2; /* Ensure text is above the image and overlay */
+    z-index: 2; 
     text-align: center; 
     color: white; 
+    font-family: 'Urbanist', sans-serif;
 }
 
 /* Container for buttons */
 .button-container {
     position: absolute;
-    bottom: 270px; /* Adjust this to position buttons vertically */
+    bottom: 270px; 
     display: flex; /* Use Flexbox for alignment */
-    justify-content: center; /* Center buttons horizontally */
-    gap: 20px; /* Space between buttons */
-    z-index: 2; /* Ensure buttons are above the overlay */
+    justify-content: center; 
+    gap: 20px; 
+    z-index: 2; 
 }
 
 .btn {
@@ -117,9 +118,10 @@ body {
     border: none; 
     color: black; 
     padding: 10px 20px; /* Padding inside the button */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; 
     cursor: pointer; 
     font-size: 16px;
+    font-family: 'Urbanist', sans-serif;
 }
 
 /* Button hover effect */

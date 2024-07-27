@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Class to prevent scrolling */
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Style for the scroll page */
+.scroll-page {
+    height: 100%;
+}
+
+/* Style for the container to center its content */
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    filter: brightness(2.4);
+}
+
+/* Style for the image to fill the page */
+.full-page-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style for the overlay (if needed) */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+/* Style for the text container */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.text-container h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Style for the button */
+.btn {
+    background-color: #4B0082; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px; 
+    font-size: 1em; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-family: 'Urbanist', sans-serif;
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+/* Style for the home icon */
+.home-icon {
+    position: absolute;
+    top: 10px; 
+    left: 185px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.home-icon img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+.home-icon span {
+    color: black; 
+    font-size: 1.2em; 
+    position: relative;
+    top: 5px; 
+}
+
+.home-icon:hover img {
+    opacity: 0.8; 
+}
