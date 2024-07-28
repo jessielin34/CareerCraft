@@ -1,6 +1,6 @@
 # CareerCraft
 
-CareerCraft-A Gamified Career Development Platform: 
+CareerCraft-A Gamified Career Development Platform: https://jessielin34.github.io/CareerCraft/
 
 Concept: CareerCraft is a platform that gamifies career development for students and early-career professionals. It offers interactive modules, real-world projects, and mentorship opportunities to help users build skills and advance their careers in a fun and engaging way. 
 
