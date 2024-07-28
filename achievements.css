@@ -9,6 +9,19 @@ body {
     background-size: cover;
 }
 
+.home-icon {
+    position: absolute;
+    top: 5vh; 
+    left: 5vw; 
+    display: inline-block;
+}
+
+.home-icon img {
+    width: 5vw; 
+    height: auto;
+    cursor: pointer; 
+}
+
 .star-container {
     display: flex;
     justify-content: space-between;
