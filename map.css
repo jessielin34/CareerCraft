@@ -21,7 +21,7 @@ body {
 }
 
 /* Back arrow button styles */
-.back-arrow {
+.home-icon {
     position: absolute;
     top: 50px; /* Adjust as needed */
     left: 60px; /* Adjust as needed */
@@ -29,8 +29,45 @@ body {
     z-index: 1000; /* Ensure it appears above other content */
 }
 
-.back-arrow img {
+.home-icon img {
     width: 30px; /* Adjust size as needed */
     height: auto;
     cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Welcome text styles */
+.welcome-text {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); /* Adjust color as needed */
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Star button styles */
+.star-button {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    cursor: pointer; /* Change cursor to pointer */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.star-button img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Start text styles */
+.start-text {
+    color: rgb(0, 0, 0); /* Adjust color as needed */
+    font-size: 20px; /* Adjust size as needed */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+    margin-bottom: 10px; /* Space between text and star button */
 }
