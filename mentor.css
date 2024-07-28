@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(images/blue.jpg); /* Replace with the path to your image */
+    background-image: url(images/blue.jpg); 
     background-size: cover; /* Ensures the image covers the whole page */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
@@ -20,14 +20,14 @@ body {
 /* Back arrow button styles */
 .back-arrow {
     position: absolute;
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    top: 20px; 
+    left: 20px; 
     display: inline-block;
     z-index: 1000; /* Ensure it appears above other content */
 }
 
 .back-arrow img {
-    width: 30px; /* Adjust size as needed */
+    width: 30px; 
     height: auto;
     cursor: pointer; /* Change cursor to pointer */
 }

@@ -7,15 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const starButton = document.getElementById("star-button");
   const mapButton = document.getElementById("mapbutton");
 
+  // Add event listener for starButton if it exists
   if (starButton) {
     starButton.addEventListener("click", () => {
-      window.location.href = "scroll.html"; // Replace with the desired page
+      window.location.href = "scroll.html"; 
     });
   }
 
+  // Add event listener for mapButton if it exists
   if (mapButton) {
     mapButton.addEventListener("click", () => {
-      window.location.href = "home.html"; // Replace with the desired page
+      window.location.href = "home.html"; 
     });
   }
 
