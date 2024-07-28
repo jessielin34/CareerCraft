@@ -6,26 +6,27 @@ body {
     background-size: cover;
     flex-direction: column;
     height: 100vh;
-    
+    overflow-x: hidden; 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2%;
+    flex-wrap: wrap;
 }
 
 .logo img {
-    width: 300px;
+    width: 150px;
     height: auto;
-    display: inline-block;
 }
 
 .username-icon {
     margin-right: 2%;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 4vw; 
 }
 
 .main {
@@ -37,47 +38,65 @@ body {
 }
 
 #start-quest {
-    padding: 2% 4%;
-    background-color: #007BFF;
+    padding: 10px 20px; 
+    background-color: #CF9FFF;
     border: none;
     color: white;
-    font-size: 1vw;
+    font-size: 4vw; 
     border-radius: 5px;
     cursor: pointer;
 }
 
 #start-quest:hover {
-    background-color: #0056b3;
+    background-color: #CCCCFF;
 }
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; 
     padding: 2%;
-    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
 .hover-icon {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
     cursor: pointer;
+}
+
+.left-star{
+    position: absolute;
+    left: 25%;
+}
+
+.right-star{
+    position: absolute;
+    right: 25%;
 }
 
 .hover-text {
     visibility: hidden;
-    width: 120px;
+    width: 150px; 
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 1%;
+    padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 100%; 
+    bottom: 120%; 
     left: 50%;
-    margin-left: -60px; 
+    transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
+    font-size: 3vw; 
+    word-wrap: break-word; 
 }
 
 .hover-icon:hover .hover-text {
@@ -85,6 +104,59 @@ body {
     opacity: 1;
 }
 
-.achievements, .mentorship {
-    margin: 0 10px;
+
+@media (min-width: 768px) {
+    .username-icon {
+        font-size: 2vw; 
+    }
+
+    #start-quest {
+        font-size: 2vw; 
+    }
+
+    .hover-text {
+        font-size: 2vw; 
+        width: 120px; 
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .username-icon {
+        font-size: 1.5vw; 
+    }
+
+    #start-quest {
+        font-size: 1vw; 
+    }
+
+    .hover-text {
+        font-size: 1.5vw; 
+        width: 200px; 
+    }
+
+    .footer {
+        justify-content: space-between;
+        padding: 2%;
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        right: 2%;
+    }
+
+    .left-star {
+        left: 25%;
+    }
+
+    .right-star {
+        right: 25%;
+    }
+
+    .hover-icon {
+        margin: 0 20px; 
+    }
 }
