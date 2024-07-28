@@ -4,6 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
     const questButton = document.getElementById('start-quest');
     const mentorButton = document.getElementById('mentor');
+    const starButton = document.getElementById('star-button');
+    const mapButton = document.getElementById('mapbutton');
+
+    if (starButton) {
+        starButton.addEventListener('click', () => {
+            window.location.href = 'scroll.html'; // Replace with the desired page
+        });
+    }
+
+    if (mapButton) {
+        mapButton.addEventListener('click', () => {
+            window.location.href = 'home.html'; // Replace with the desired page
+        });
+    }
 
     // Add event listener for questButton if it exists
     if (questButton) {
